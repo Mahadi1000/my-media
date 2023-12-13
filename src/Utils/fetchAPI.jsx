@@ -7,11 +7,11 @@ const options = {
   params: {
     part: "snippet",
     videoId: "M7FIvfx5J10",
-    maxResults: "70",
+    maxResults: "100",
   },
   headers: {
-    "X-RapidAPI-Key": "347e40abf6msh452347add67d9e4p1e05b5jsn411ffc338abb",
-    // "X-RapidAPI-Key": "347e40abf6msh452347add67d9e4p1e05b5jsn411ffc338abb",
+    "X-RapidAPI-Key": import.meta.env.VITE_REACT_APP_RAPID_API_KEY,
+
     "X-RapidAPI-Host": "youtube-v31.p.rapidapi.com",
   },
 };

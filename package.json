@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -15,9 +14,9 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.19",
-    "@mui/material": "^5.14.20",
+    "@mui/material": "^5.15.0",
     "@mui/styled-engine-sc": "^6.0.0-alpha.7",
-    "@mui/styles": "^5.14.20",
+    "@mui/styles": "^5.15.0",
     "axios": "^1.6.2",
     "esbuild": "^0.19.9",
     "localforage": "^1.10.0",
@@ -26,8 +25,8 @@
     "react-dom": "^18.2.0",
     "react-player": "^2.13.0",
     "react-router-dom": "^6.20.1",
-    "react-scripts": "^5.0.1",
-    "sort-by": "^1.2.0",
+    "react-scripts": "^3.0.1",
+    "sort-by": "^0.0.2",
     "styled-components": "^6.1.1"
   },
   "devDependencies": {
@@ -42,5 +41,10 @@
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
     "vite": "^5.0.0"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

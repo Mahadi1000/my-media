@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    target: "esnext", // or 'es2020' depending on your requirements
+    target: "es2022",
   },
 });
